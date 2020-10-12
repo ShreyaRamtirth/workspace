@@ -1,5 +1,5 @@
 body{
-  /*background-color: rgb(0,0,0,.1);*/
+  background-color: rgb(0,0,0,.1);
 }
 
 /* heading */
@@ -262,10 +262,28 @@ body{
   font-size: 20px;
 }
 
+
+/*  feedback  */
+
+#feedback-menu{
+  margin-left: 96%;
+  background-color: #fff;
+  border-left: 6px solid #0CC8CB;
+  position: sticky;
+}
+
+.feedback a{
+  padding: 10px;
+ writing-mode: vertical-rl; 
+ text-decoration: none;
+ font-size: 20px;
+ color: darkblue;
+}
+
 /*  Main middle field (job options/suggestions)*/
 
 #Job-suggestions{
-  margin-top: 1%;
+  margin-top: -5%;
   padding: 20px;
   margin-left: 20%;
   margin-right: 20%;
@@ -285,3 +303,76 @@ body{
   padding: 15px;
 }
 
+/*  Feedback form   */
+#FeedbackForm{
+  display: none;
+  position: fixed;
+  border: 3px solid #000;
+  text-align: right;
+  margin-left: 35%;
+  margin-top: -20%;
+  padding: 40px;
+  background-color: white;
+}
+
+.Formfeedback h1{
+  text-align: center;
+  color: rgb(7,15,79);
+  border-bottom: 1px solid #000;
+
+}
+
+.Formfeedback select{
+  font-size: 16px;
+  padding-right: 20px;
+  color: rgb(7,15,79);
+  font-weight: bold;
+
+}
+
+.Formfeedback option{
+ direction: rtl;  
+}
+
+.Formfeedback p{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Formfeedback ul li{
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  border:1px solid #ddd;
+  font-size: 20px; 
+
+}
+
+.Formfeedback button{
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  border-radius: 2px;
+  background-color: rgba(0,0,0,.8);
+  color: #fff;
+}
+
+.Formfeedback button:hover{
+  background-color: #fff;
+  color:rgb(7,15,79);
+  font-weight: bold;
+  border: 2px solid rgb(7,15,79);
+}
+
+.Formfeedback ul li:hover{
+  background-color: rgba(57, 174, 255,.9);
+}
+
+.Formfeedback a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px
+  border-radius:100px;
+  border: 1px solid #000; 
+}
