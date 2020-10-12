@@ -62,6 +62,32 @@
 	</div>
 </section>
 
+<section id="feedback-menu">
+	<div class="feedback">
+		<a href="#"  onclick="openForm()">Feedback</a>
+	</div>
+</section>
+
+<div id="FeedbackForm" class="Formfeedback">
+	<form action="email.php" method="post">
+		<a href="#" onclick="CloseForm()">X</a>
+		<h1>Career Builder</h1>
+		<select>
+			<option>English</option>
+			<option>French</option>
+			<option>Japnese</option>
+		</select>
+		<p>What type of feedback would you like to leave us?</p>
+		<ul>
+			<li>Suggestions</li>
+			<li>Bug</li>
+			<li>Questions</li>
+		</ul>
+		<button>Save</button>
+
+	</form>
+	
+</div>
 
 <section id="Job-suggestions">
 	<!-- <div class="filter">
@@ -98,6 +124,16 @@
     	style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
     	currentSize = parseFloat(style);
     	txt.style.fontSize = (currentSize - 1) + 'px';
+	}
+
+	function openForm()
+	{
+		document.getElementById("FeedbackForm").style.display = "block";
+	}
+
+	function CloseForm()
+	{
+		document.getElementById("FeedbackForm").style.display = "none";	
 	}
 </script>
 
