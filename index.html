@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Career Builder</title>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<header id="header" class="fixed-top">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+         <h1 class="text-light">Career Builder</h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Find jobs</a></li>
+          <li><a href="#profile">Create Your Profile</a></li>
+          <li><a href="#Recommandations">Recommandations</a></li>
+          <li><a href="#Resources">Resources</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+ 	</div>
+</header><!-- End Header -->
+
+<section id="search" class="search-job-vacancies">
+	<h2>Job and Vacancies</h2>
+	<div class="search-jobs">
+		<input type="Text" id="job_title" name="job_title" placeholder="e.g. Programmer">
+		<input type="Text" name="Cities" placeholder="e.g. Mumbai">
+		<a href="#">Find Jobs</a>
+	</div>
+</section>
+
+<section id="side-menu">
+	<div class="sidebar">
+		<h3>Date Posted</h3>
+		<input type="radio" name="date_picker" value="24hours">24 Hours<br><br>
+		<input type="radio" name="date_picker" value="3days">3 Days<br><br>
+		<input type="radio" name="date_picker" value="7days">7 Days<br><br>
+		<input type="radio" name="date_picker" value="30days">30 Days<br><br>
+	</div>
+
+	<div class="job-type">
+		<h3>Job Type</h3>
+		<input type="checkbox" name="All" value="24hours">All<br><br>
+		<input type="checkbox" name="Full-Time" value="3days">Full Time<br><br>
+		<input type="checkbox" name="Part-Time" value="7days">Part Time<br><br>
+		<input type="checkbox" name="Internship" value="30days">Internship<br><br>
+	</div>
+</section>
+
+<section id="Job-suggestions">
+	<!-- <div class="filter">
+
+	</div> -->
+		<div class="job-name">
+			<h2>Sr.Software Developer</h2>
+		</div>
+		<div class="job-description">
+			<i class="material-icons">location_city</i><span>Infosys</span>
+			<i class="material-icons">place</i><span>Pune</span>
+			<i class="material-icons">work</i><span>Full-Time</span>
+		</div>
+		<div class="company_description">
+			<p>Infosys was established by seven engineers in Pune, Maharashtra, India with an initial capital of $250 in 1981.[10] It was registered as Infosys Consultants Private Limited on 2 July 1981.[11] In 1983, it relocated its office to Bangalore, Karnataka, India.</p>
+		</div>
+
+</section>
+
+
+</body>
+</html>
