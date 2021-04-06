@@ -209,7 +209,7 @@
 .search-jobs input{
   font-size: 15px;
   border-radius: 10px;
-  padding: 0px;
+  padding: 8px;
   text-shadow: rgba(255,255,255,.1);
 
 }
